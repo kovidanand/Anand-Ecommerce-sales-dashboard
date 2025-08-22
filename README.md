@@ -91,3 +91,6 @@ Customer Engagement: Top customers like Vrinda represent significant revenue—l
 Payment Preferences: COD still dominates, but UPI adoption is significant—businesses should balance between cash flow and digital adoption.
 
 Profitability Trends: Negative profit in May highlights potential issues in pricing, discounts, or product returns.
+
+ Screenshots / Demos
+ example: ![Dashboard Preview].( 
