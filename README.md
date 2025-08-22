@@ -93,4 +93,4 @@ Payment Preferences: COD still dominates, but UPI adoption is significant—busi
 Profitability Trends: Negative profit in May highlights potential issues in pricing, discounts, or product returns.
 
  Screenshots / Demos
- example: ![Dashboard Preview].( 
+ example: ![Dashboard Preview].(https://github.com/kovidanand/Anand-Ecommerce-sales-dashboard/blob/main/Screenshot%202025-08-22%20053207.png).
