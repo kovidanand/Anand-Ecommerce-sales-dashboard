@@ -1,96 +1,78 @@
 # Anand-Ecommerce-sales-dashboard
-📊 Anand Ecommerce Sales Dashboard
+1. Project Title / Headline
 
-An interactive Power BI dashboard designed to analyze ecommerce sales performance across states, categories, customers, and payment methods—helping businesses gain insights into revenue, quantity sold, and profitability.
+📊 Anand Ecommerce Sales Dashboard – An interactive Power BI dashboard designed to analyze ecommerce sales performance across different states, customers, categories, payment methods, and profit trends.
 
-🔎 Short Description / Purpose
+2. Short Description / Purpose
 
-The Anand Ecommerce Sales Dashboard provides a comprehensive view of ecommerce transactions by tracking sales amount, order quantities, customer contributions, and profit trends. It is built to support decision-makers in understanding state-wise performance, customer preferences, and product profitability—ultimately driving growth and operational efficiency.
+The Anand Ecommerce Sales Dashboard is a visually engaging and analytical Power BI report designed to help users explore and analyze ecommerce sales data across multiple dimensions. The dashboard highlights sales amount, order quantities, customer contributions, payment mode trends, and profitability by category and sub-category. This tool is intended for use by business analysts, ecommerce managers, and strategists who seek to understand sales drivers and optimize decision-making.
 
-🛠 Tech Stack
+3. Tech Stack
 
 The dashboard was built using the following tools and technologies:
+• 📊 Power BI Desktop – Main data visualization platform used for report creation.
+• 📂 Power Query – Data transformation and cleaning layer for reshaping and preparing the data.
+• 🧠 DAX (Data Analysis Expressions) – Used for calculated measures, KPIs, and dynamic visuals.
+• 📝 Data Modeling – Relationships established among tables (orders, customers, products, payments) to enable cross-filtering and aggregation.
+• 📁 File Format – .pbix for development and .png for dashboard previews.
 
-Power BI Desktop – Main data visualization platform.
+4. Data Source
 
-Power Query – Data cleaning and transformation for raw ecommerce data.
+Source: Simulated Ecommerce Sales Dataset.
 
-DAX (Data Analysis Expressions) – Calculated fields for KPIs and dynamic filters.
+The dataset contains:
+• Order-level transactions with state, customer name, category, sub-category, sales, profit, and payment mode.
+• Monthly and quarterly breakdowns to track revenue and profitability trends.
 
-Data Modeling – Structured relationships among tables (orders, customers, products, payments).
+5. Features / Highlights
 
-File Format – .pbix for development and .png for dashboard previews.
-
-📂 Data Source
-
-Source: Simulated Ecommerce Sales Dataset
-
-Transaction-level data including order details, state, customer, category, sub-category, profit, and payment mode.
-
-Time-series data for months and quarters to track revenue and profitability trends.
-
-🌟 Features / Highlights
 • Business Problem
-
-Ecommerce businesses often struggle to identify their top-performing regions, product categories, and customers, while also tracking payment preferences and profitability. Without proper insights, it becomes difficult to optimize marketing, inventory, and pricing strategies.
+Ecommerce companies often face challenges in identifying their top-performing regions, customer segments, payment preferences, and profitable product categories. Without actionable insights, it becomes difficult to optimize marketing strategies, inventory planning, and customer engagement.
 
 • Goal of the Dashboard
-
-To deliver a decision-support tool that:
+To deliver an interactive visual tool that:
 
 Highlights state-wise sales contributions.
 
-Identifies top customers and payment trends.
+Identifies top customers and payment preferences.
 
-Tracks profitability by month and sub-category.
+Tracks profitability by month and product sub-category.
 
-Supports strategic planning for inventory, marketing, and customer engagement.
+Supports data-driven strategic decision-making.
 
 • Walkthrough of Key Visuals
 
-Key KPIs (Top Row):
+KPIs (Top Row): Total Sales Amount = 87K, Total Orders = 882, Total Quantity Sold = 1181.
 
-Total Sales Amount: 87K
+Sales by State (Bar Chart): Maharashtra and Madhya Pradesh contribute the most revenue.
 
-Total Orders: 882
+Quantity by Category (Donut Chart): Clothing dominates (61%), followed by Electronics (23%) and Furniture (16%).
 
-Total Quantity Sold: 1181
+Profit by Month (Bar Chart): April shows positive profit, May records a dip, June recovers slightly.
 
-Sum of Amount by State (Bar Chart):
+Sales by Customer (Bar Chart): Vrinda is the top customer, followed by Priyanka and Bhawna.
 
-Shows top contributing states like Madhya Pradesh and Maharashtra.
+Quantity by Payment Mode (Donut Chart): COD (44%) is the most used mode, followed by UPI (21%), Debit Card (14%), Credit Card (11%), and EMI (10%).
 
-Sum of Quantity by Category (Donut Chart):
-
-Clothing (61%) leads, followed by Electronics (23%) and Furniture (16%).
-
-Profit by Month (Bar Chart):
-
-Tracks monthly profitability, with April showing strong profits, May showing losses, and June stabilizing.
-
-Sum of Amount by Customer (Bar Chart):
-
-Identifies top customers such as Vrinda and Priyanka.
-
-Sum of Quantity by Payment Mode (Donut Chart):
-
-COD (44%) dominates, followed by UPI (21%), Debit Card (14%), and others.
-
-Profit by Sub-Category (Bar Chart):
-
-Tables and Printers drive most profits, while Trousers and Shirts contribute less.
+Profit by Sub-Category (Bar Chart): Tables and Printers generate the highest profit, while Trousers and Shirts contribute the least.
 
 • Business Impact & Insights
 
-Regional Strategy: Madhya Pradesh and Maharashtra drive major sales—focus on strengthening supply chains and marketing here.
+Regional Focus: States like Madhya Pradesh and Maharashtra are major revenue hubs.
 
-Product Insights: Clothing dominates in volume but Tables and Printers generate higher profitability.
+Product Mix: Clothing drives the largest sales volume, but Tables and Printers are more profitable.
 
-Customer Engagement: Top customers like Vrinda represent significant revenue—loyalty programs could be targeted here.
+Customer Insight: A few key customers (e.g., Vrinda) contribute heavily to revenue—loyalty programs can be targeted at them.
 
-Payment Preferences: COD still dominates, but UPI adoption is significant—businesses should balance between cash flow and digital adoption.
+Payment Trend: COD dominates, but UPI adoption shows digital growth.
 
-Profitability Trends: Negative profit in May highlights potential issues in pricing, discounts, or product returns.
+Profitability: May’s loss indicates possible issues in pricing or returns—requires corrective action.
 
- Screenshots / Demos
+6. Screenshots / Demos
+
+Dashboard Overview Screenshot
+
+State & Category Analysis Section
+
+Profitability Trends Section
  example: ![Dashboard Preview].(https://github.com/kovidanand/Anand-Ecommerce-sales-dashboard/blob/main/Screenshot%202025-08-22%20053207.png).
